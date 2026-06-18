@@ -1,0 +1,39 @@
+# Dependencies
+Backend/node_modules/
+Frontend/node_modules/
+
+# Environment Variables
+Backend/.env
+Frontend/.env
+
+# Build Outputs
+Frontend/dist/
+Frontend/dist-ssr/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local Config Files
+*.local
+
+# IDE / Editor Files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
