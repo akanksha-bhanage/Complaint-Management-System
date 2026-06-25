@@ -9,9 +9,13 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res)=>{
-  res.send('Hello World');
-})
+app.get("/", (req, res) => {
+  res.status(200).json({
+    success: true,
+    project: "HostelCare - Complaint Management System",
+    message: "Backend API is running successfully."
+  });
+});
 
 app.use('/api/complaints', userRouter);
 app.use('/api/auth', authRoutes);

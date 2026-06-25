@@ -1,8 +1,42 @@
-# HostelCare - Complaint Management System
+# HostelCare | Full-Stack Complaint Management System
 
 A full-stack Complaint Management System developed using the MERN stack to manage the complete lifecycle of complaints, from issue reporting and staff assignment to progress tracking and final resolution. The platform serves as a centralized solution for improving communication, accountability, and operational efficiency within a hostel environment.
 
 Built with role-based access control, JWT authentication, RESTful APIs, and MongoDB, the application demonstrates the design and implementation of a secure, scalable, and user-centric complaint management workflow.
+
+---
+
+## Live Demo
+
+🌐 Frontend:
+https://complaint-management-system-pi-ten.vercel.app
+
+⚙️ Backend API:
+https://cms-backend-ip4n.onrender.com
+
+---
+
+## Demo Credentials
+
+### Admin
+
+Email: admin@gmail.com
+
+Password: Admin@123
+
+### Staff
+
+Email: staff@gmail.com
+
+Password: Staff@123
+
+Email: staff2@gmail.com
+
+Password: Staff@123
+
+### User
+
+Create a new account to explore the user workflow.
 
 ---
 
@@ -183,7 +217,11 @@ PORT=3001
 
 ### Frontend (.env)
 
+# Local Development
 VITE_API_URL=http://localhost:3001/api
+
+# Production
+VITE_API_URL=https://cms-backend-ip4n.onrender.com/api
 
 ---
 
@@ -191,7 +229,7 @@ VITE_API_URL=http://localhost:3001/api
 
 ### Clone Repository
 
-git clone <repository-url>
+git clone https://github.com/akanksha-bhanage/Complaint-Management-System.git
 
 cd Complaint-System
 
@@ -229,6 +267,8 @@ This project strengthened my understanding of:
 * Backend API Design
 * Error Handling
 * Environment Variables
+* Git & GitHub Workflow
+* Deployment using Vercel and Render
 * Production Readiness Practices
 
 ---
